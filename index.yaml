@@ -1,0 +1,19 @@
+apiVersion: v1
+entries:
+  sulu:
+  - apiVersion: v1
+    appVersion: ^2.0-alpha4
+    created: 2018-12-02T20:12:31.912432+01:00
+    description: A Helm chart for a Sulu-Application
+    digest: 9bfac1ce8b473920008e3d1a62f963ec7d6142cce52ab3876f77f0759490673f
+    home: https://sulu.io
+    maintainers:
+    - email: johannes@sulu.io
+      name: wachterjohannes
+    name: sulu
+    sources:
+    - https://github.com/sulu/sulu-minimal
+    urls:
+    - sulu-0.1.0.tgz
+    version: 0.1.0
+generated: 2018-12-02T20:12:31.910337+01:00
