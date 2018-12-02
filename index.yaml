@@ -3,7 +3,22 @@ entries:
   sulu:
   - apiVersion: v1
     appVersion: ^2.0-alpha4
-    created: 2018-12-02T21:37:09.785281+01:00
+    created: 2018-12-02T21:50:47.085085+01:00
+    description: A Helm chart for a Sulu-Application
+    digest: 1af627ae5ddc2b93d1c2fd5db03070382d75ddd94bdeb11955436c0dbd07476a
+    home: https://sulu.io
+    maintainers:
+    - email: johannes@sulu.io
+      name: wachterjohannes
+    name: sulu
+    sources:
+    - https://github.com/sulu/sulu-minimal
+    urls:
+    - sulu-0.1.1.tgz
+    version: 0.1.1
+  - apiVersion: v1
+    appVersion: ^2.0-alpha4
+    created: 2018-12-02T21:50:47.08328+01:00
     description: A Helm chart for a Sulu-Application
     digest: d675d2e1dd6ce10ebb4fbf006d1872e5be81dd3376bbaf86057fa5ae4e1aedc6
     home: https://sulu.io
@@ -19,9 +34,9 @@ entries:
   varnish:
   - apiVersion: v1
     appVersion: "5.0"
-    created: 2018-12-02T21:37:09.785704+01:00
+    created: 2018-12-02T21:50:47.085381+01:00
     description: A Helm chart for Varnish
-    digest: 68ad7e98d12f7f7dc5e8e16ecb9e6bb24dbcb567ab215f7f307d1a080e4b5bef
+    digest: bc4d70d41293e5ac9fa083c0df88c2eff10a8f8d6c1f67a97a855e0eb44cad1a
     maintainers:
     - email: johannes@sulu.io
       name: wachterjohannes
@@ -29,4 +44,4 @@ entries:
     urls:
     - varnish-0.1.0.tgz
     version: 0.1.0
-generated: 2018-12-02T21:37:09.782166+01:00
+generated: 2018-12-02T21:50:47.081073+01:00

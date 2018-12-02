@@ -5,5 +5,8 @@ dependencies:
 - name: redis
   repository: https://kubernetes-charts.storage.googleapis.com/
   version: 3.6.5
-digest: sha256:445d08a40a3dd80bb2de04b6b6e32ea11c9966c86b0856d543957921442a8f09
-generated: 2018-11-06T08:30:45.49477+01:00
+- name: varnish
+  repository: https://raw.githubusercontent.com/wachterjohannes/sulu-chart/master/
+  version: 0.1.0
+digest: sha256:132191e5b44192dfabfe412f089d455da9f0e94c9361c7d064da8a1dc071b5e5
+generated: 2018-12-02T21:50:27.632311+01:00
