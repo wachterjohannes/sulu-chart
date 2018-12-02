@@ -6,6 +6,8 @@ image:
 nameOverride: ""
 fullnameOverride: ""
 
+configmap: varnish-configmap
+
 service:
   type: LoadBalancer
   port: 80

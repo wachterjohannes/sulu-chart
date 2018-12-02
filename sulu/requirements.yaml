@@ -8,5 +8,5 @@ dependencies:
   repository: https://kubernetes-charts.storage.googleapis.com/
 - name: varnish
   version: 0.1.x
-  repository: "https://raw.githubusercontent.com/wachterjohannes/sulu-chart/master/"
+  repository: "file://../varnish"
   condition: varnish.enabled
