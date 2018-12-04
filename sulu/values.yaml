@@ -58,6 +58,7 @@ google:
   private_key: ''
   client_email: ''
   client_id: ''
+  client_x509_cert_url: ''
 
 mysql:
   enabled: true
