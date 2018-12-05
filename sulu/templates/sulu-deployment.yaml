@@ -23,8 +23,8 @@ spec:
       volumes:
 {{- if .Values.google.enabled }}
         - name: google-bucket-config
-          configMap:
-              name: {{ template "sulu.fullname" . }}-google-config
+          secret:
+              secretName: {{ template "sulu.fullname" . }}-google-config
               items:
               -   key: key.json
                   path: key.json
